@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Simulated USSD Menu</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div id="ussd-menu">
+    <h1>Welcome to USSD Menu</h1>
+    <ul>
+      <li><a href="#" onclick="showSubMenu(1)">Option 1</a></li>
+      <li><a href="#" onclick="showSubMenu(2)">Option 2</a></li>
+      <li><a href="#" onclick="showSubMenu(3)">Option 3</a></li>
+    </ul>
+    <div id="sub-menu" style="display: none;">
+      <h2 id="sub-menu-title"></h2>
+      <ul id="sub-menu-options">
+      </ul>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
